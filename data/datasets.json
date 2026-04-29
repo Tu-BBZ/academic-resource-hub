@@ -1,0 +1,350 @@
+{
+  "lastUpdate": "2026-04-29",
+  "items": [
+    {
+      "name": "全国地理信息资源目录服务系统",
+      "url": "https://www.webmap.cn",
+      "description": "国家基础地理信息中心建设的地理信息资源目录系统，提供全国1:100万、1:25万等基础地理信息数据服务，含矢量数据、DEM数据等。",
+      "category": "综合平台",
+      "source": "国家基础地理信息中心",
+      "tags": [
+        "综合平台",
+        "矢量数据",
+        "DEM"
+      ]
+    },
+    {
+      "name": "地理空间数据云",
+      "url": "https://www.gscloud.cn",
+      "description": "中科院计算机网络信息中心运营，提供Landsat、MODIS、Sentinel等卫星遥感影像数据，以及部分DEM、土地利用等数据产品，免费注册下载。",
+      "category": "遥感影像",
+      "source": "中科院",
+      "tags": [
+        "遥感影像",
+        "土地利用",
+        "DEM"
+      ]
+    },
+    {
+      "name": "中科院资源环境科学与数据中心",
+      "url": "https://www.resdc.cn",
+      "description": "中科院建设的资源环境数据共享平台，提供土地利用、气象、土壤、植被、水资源、社会经济等多类数据，涵盖全国和区域尺度。",
+      "category": "自然环境",
+      "source": "中科院",
+      "tags": [
+        "自然环境",
+        "土地利用",
+        "气象数据",
+        "社会经济"
+      ]
+    },
+    {
+      "name": "地理资源中心（GRE）",
+      "url": "https://gre.geodata.cn",
+      "description": "国家地球系统科学数据中心地理资源分中心，提供中国地理基础数据、资源环境数据、人文经济数据等多类科学数据。",
+      "category": "综合平台",
+      "source": "国家地球系统科学数据中心",
+      "tags": [
+        "综合平台",
+        "人口与经济",
+        "自然环境"
+      ]
+    },
+    {
+      "name": "天地图",
+      "url": "https://www.tianditu.gov.cn",
+      "description": "国家地理信息公共服务平台，提供在线地图服务（影像、地形、矢量）、地名地址、地图API等，支持开发者调用地图瓦片服务。",
+      "category": "综合平台",
+      "source": "自然资源部",
+      "tags": [
+        "综合平台",
+        "矢量数据",
+        "地图API"
+      ]
+    },
+    {
+      "name": "北京大学地理数据平台",
+      "url": "https://geodata.pku.edu.cn",
+      "description": "北京大学提供的中国历史地理信息系统(CHGIS)数据、中国多时期土地利用数据、人口空间分布数据等高精度学术数据集。",
+      "category": "人口与经济",
+      "source": "北京大学",
+      "tags": [
+        "人口与经济",
+        "历史数据",
+        "土地利用"
+      ]
+    },
+    {
+      "name": "国家遥感数据与应用服务平台",
+      "url": "https://www.cpeos.org.cn",
+      "description": "科技部国家遥感中心建设，提供国内外遥感卫星数据共享服务，包括高分系列、资源系列等国产卫星数据。",
+      "category": "遥感影像",
+      "source": "科技部",
+      "tags": [
+        "遥感影像",
+        "高分数据"
+      ]
+    },
+    {
+      "name": "自然资源卫星遥感云服务平台",
+      "url": "https://sasclouds.com",
+      "description": "自然资源部国土卫星遥感应用中心建设，提供高分一号至七号、资源三号等国产高分辨率卫星影像数据的在线浏览和订购服务。",
+      "category": "遥感影像",
+      "source": "自然资源部",
+      "tags": [
+        "遥感影像",
+        "高分数据"
+      ]
+    },
+    {
+      "name": "星图云开放平台",
+      "url": "https://open.geovisearth.com",
+      "description": "中科星图提供的地球观测数据开放平台，提供多源卫星影像、专题产品、地图服务及开发API接口。",
+      "category": "遥感影像",
+      "source": "中科星图",
+      "tags": [
+        "遥感影像",
+        "地图API"
+      ]
+    },
+    {
+      "name": "国家统计数据",
+      "url": "https://data.stats.gov.cn",
+      "description": "国家统计局官方数据平台，提供全国及各省市的人口、GDP、CPI、工业、农业、贸易等宏观数据的在线查询与下载。",
+      "category": "人口与经济",
+      "source": "国家统计局",
+      "tags": [
+        "人口与经济",
+        "统计数据",
+        "GDP"
+      ]
+    },
+    {
+      "name": "中国人口普查数据",
+      "url": "https://www.stats.gov.cn/sj/pcsj/rkpc",
+      "description": "第七次全国人口普查（2020年）数据发布页面，提供全国及分省、分市、分县的人口、年龄、性别、教育、城乡等详细数据。",
+      "category": "人口与经济",
+      "source": "国家统计局",
+      "tags": [
+        "人口",
+        "普查",
+        "统计数据"
+      ]
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org",
+      "description": "全球最大的开放地理数据库，提供道路、建筑、POI、行政区划等矢量数据，可通过Geofabrik、BBBike等工具下载各区域的shapefile/pbf数据。",
+      "category": "综合平台",
+      "source": "OpenStreetMap Foundation",
+      "tags": [
+        "综合平台",
+        "矢量数据",
+        "POI数据",
+        "路网"
+      ]
+    },
+    {
+      "name": "WorldPop",
+      "url": "https://www.worldpop.org",
+      "description": "英国南安普顿大学运营的全球人口空间分布数据平台，提供全球100m×100m分辨率的人口栅格数据，以及年龄性别结构数据。",
+      "category": "人口与经济",
+      "source": "University of Southampton",
+      "tags": [
+        "人口",
+        "空间分布",
+        "全球数据"
+      ]
+    },
+    {
+      "name": "中国城市统计年鉴数据",
+      "url": "https://www.stats.gov.cn/sj/ndsj/",
+      "description": "国家统计局发布的《中国城市统计年鉴》，涵盖全国地级及以上城市的经济、人口、社会、环境等指标，可通过知网或万方获取电子版。",
+      "category": "社会经济",
+      "source": "国家统计局",
+      "tags": [
+        "社会经济",
+        "统计数据",
+        "城市数据"
+      ]
+    },
+    {
+      "name": "GlobeLand30",
+      "url": "https://www.globallandcover.com",
+      "description": "国家基础地理信息中心生产的全球30米分辨率地表覆盖数据，包含2000年、2010年、2020年三期，涵盖耕地、林地、草地、水体等10种地类。",
+      "category": "土地利用",
+      "source": "国家基础地理信息中心",
+      "tags": [
+        "土地利用",
+        "地表覆盖",
+        "全球数据"
+      ]
+    },
+    {
+      "name": "MODIS数据产品",
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov",
+      "description": "NASA提供的MODIS传感器数据产品，包括NDVI植被指数、地表温度、土地利用覆盖（MCD12Q1）、气溶胶等产品，时间序列从2000年至今。",
+      "category": "自然环境",
+      "source": "NASA",
+      "tags": [
+        "遥感影像",
+        "自然环境",
+        "植被指数"
+      ]
+    },
+    {
+      "name": "Sentinel数据",
+      "url": "https://scihub.copernicus.eu",
+      "description": "欧空局Copernicus计划提供的Sentinel系列卫星数据，包括Sentinel-1（SAR）、Sentinel-2（多光谱）、Sentinel-3等，免费开放下载。",
+      "category": "遥感影像",
+      "source": "ESA",
+      "tags": [
+        "遥感影像",
+        "SAR",
+        "多光谱"
+      ]
+    },
+    {
+      "name": "Landsat数据",
+      "url": "https://earthexplorer.usgs.gov",
+      "description": "USGS提供的Landsat系列卫星影像数据（Landsat 1-9），空间分辨率30米，时间序列从1972年至今，是使用最广泛的中分辨率遥感数据。",
+      "category": "遥感影像",
+      "source": "USGS",
+      "tags": [
+        "遥感影像",
+        "长时间序列"
+      ]
+    },
+    {
+      "name": "高德地图开放平台",
+      "url": "https://lbs.amap.com",
+      "description": "高德提供的地图API服务，包括POI搜索、地理编码、逆地理编码、路径规划、行政区划查询等，开发者可免费申请API Key。",
+      "category": "POI数据",
+      "source": "高德地图",
+      "tags": [
+        "POI数据",
+        "地理编码",
+        "地图API"
+      ]
+    },
+    {
+      "name": "百度地图开放平台",
+      "url": "https://lbsyun.baidu.com",
+      "description": "百度提供的地图API服务，包括POI检索、地理编码、热力图、路线规划、时空大数据等，支持坐标系转换和多种开发SDK。",
+      "category": "POI数据",
+      "source": "百度地图",
+      "tags": [
+        "POI数据",
+        "地理编码",
+        "地图API"
+      ]
+    },
+    {
+      "name": "SRTM DEM数据",
+      "url": "https://earthdata.nasa.gov/elevation",
+      "description": "NASA提供的SRTM（航天飞机雷达地形测绘）DEM数据，全球覆盖，分辨率30米和90米，是使用最广泛的免费高程数据。",
+      "category": "自然环境",
+      "source": "NASA",
+      "tags": [
+        "DEM",
+        "地形",
+        "高程数据"
+      ]
+    },
+    {
+      "name": "中国气象数据网",
+      "url": "https://data.cma.cn",
+      "description": "中国气象局官方气象数据共享平台，提供地面气象观测、高空探测、卫星遥感、数值预报等多类气象数据。",
+      "category": "气象数据",
+      "source": "中国气象局",
+      "tags": [
+        "气象数据",
+        "气温",
+        "降水"
+      ]
+    },
+    {
+      "name": "国家青藏高原科学数据中心",
+      "url": "https://data.tpdc.ac.cn",
+      "description": "中科院青藏高原研究所建设的数据中心，提供青藏高原及周边地区的冰川、冻土、生态、水文、气象等领域科学数据。",
+      "category": "自然环境",
+      "source": "中科院青藏高原研究所",
+      "tags": [
+        "自然环境",
+        "生态数据",
+        "冰川冻土"
+      ]
+    },
+    {
+      "name": "资源环境数据云平台",
+      "url": "https://www.resdc.cn/data.aspx",
+      "description": "提供1980年至今中国逐年的土地利用遥感监测数据、1km网格人口分布数据、夜间灯光数据、生态质量指数等，是城市研究常用数据源。",
+      "category": "综合平台",
+      "source": "中科院",
+      "tags": [
+        "土地利用",
+        "人口",
+        "夜间灯光"
+      ]
+    },
+    {
+      "name": "GEOFABRIK OSM数据下载",
+      "url": "https://download.geofabrik.de",
+      "description": "提供全球各区域OpenStreetMap数据的Shapefile、GeoJSON、PBF格式下载，数据每日更新，方便直接用于GIS分析。",
+      "category": "矢量数据",
+      "source": "Geofabrik",
+      "tags": [
+        "矢量数据",
+        "OSM",
+        "Shapefile"
+      ]
+    },
+    {
+      "name": "Academic Torrents GIS数据",
+      "url": "https://academictorrents.com",
+      "description": "学术界的BitTorrent分享平台，有大量GIS和遥感相关的科研数据集，如全球建筑足迹、道路网络、夜间灯光等。",
+      "category": "综合平台",
+      "source": "Academic Torrents",
+      "tags": [
+        "综合平台",
+        "科研数据"
+      ]
+    },
+    {
+      "name": "中国县域统计数据",
+      "url": "https://www.xianyue.cn",
+      "description": "提供中国县级面板数据，涵盖人口、经济、社会、环境等多维度指标，支持按省份和年份筛选下载，适合区域经济研究。",
+      "category": "社会经济",
+      "source": "县域数据",
+      "tags": [
+        "社会经济",
+        "县级数据",
+        "面板数据"
+      ]
+    },
+    {
+      "name": "NASA SEDAC",
+      "url": "https://sedac.ciesin.columbia.edu",
+      "description": "NASA社会经济数据与应用中心，提供全球人口栅格、城市 extents、环境-社会指标等交叉数据，特别适合社会-环境耦合研究。",
+      "category": "人口与经济",
+      "source": "NASA/CIESIN",
+      "tags": [
+        "人口",
+        "社会经济",
+        "全球数据"
+      ]
+    },
+    {
+      "name": "中国行政区划数据",
+      "url": "https://datav.aliyun.com/portal/school/atlas/area_selector",
+      "description": "阿里云DataV提供的全国省市区县行政区划数据，含边界坐标和层级关系，提供GeoJSON格式下载，常用于地图可视化。",
+      "category": "行政区划",
+      "source": "阿里云DataV",
+      "tags": [
+        "行政区划",
+        "边界",
+        "GeoJSON"
+      ]
+    }
+  ]
+}
