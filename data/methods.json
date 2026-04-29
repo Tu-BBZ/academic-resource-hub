@@ -1,0 +1,582 @@
+{
+  "lastUpdate": "2026-04-29",
+  "items": [
+    {
+      "name": "描述性统计分析",
+      "category": "描述统计",
+      "description": "对数据进行基本的统计描述，包括均值、中位数、标准差、分位数、频数分布等，是所有定量分析的基础步骤。在城市研究中常用于描述城市人口分布、经济指标等的总体特征。",
+      "links": [
+        {
+          "title": "统计学基础教程（菜鸟教程）",
+          "url": "https://www.runoob.com/statistics/statistics-tutorial.html"
+        },
+        {
+          "title": "Python描述统计分析指南",
+          "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html"
+        }
+      ],
+      "tools": [
+        "Python (pandas/numpy)",
+        "R (summary/describe)",
+        "SPSS",
+        "Excel"
+      ]
+    },
+    {
+      "name": "频率分布与直方图分析",
+      "category": "描述统计",
+      "description": "将数据按区间分组，统计各区间频率并绘制直方图或频率分布曲线，用于观察数据的集中趋势和离散程度，识别分布形态（正态、偏态等）。",
+      "links": [
+        {
+          "title": "Matplotlib直方图教程",
+          "url": "https://matplotlib.org/stable/gallery/statistics/hist.html"
+        }
+      ],
+      "tools": [
+        "Python (matplotlib/seaborn)",
+        "R (ggplot2)",
+        "Excel"
+      ]
+    },
+    {
+      "name": "探索性数据分析（EDA）",
+      "category": "描述统计",
+      "description": "通过可视化（散点图、箱线图、热力图等）和基本统计手段初步了解数据特征、发现异常值、检测变量关系。是正式建模前必不可少的步骤。",
+      "links": [
+        {
+          "title": "Pandas Profiling自动EDA工具",
+          "url": "https://github.com/ydataai/ydata-profiling"
+        },
+        {
+          "title": "Seaborn统计可视化教程",
+          "url": "https://seaborn.pydata.org/tutorial.html"
+        }
+      ],
+      "tools": [
+        "Python (seaborn/plotly)",
+        "R (ggplot2)",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "多元线性回归",
+      "category": "回归分析",
+      "description": "通过建立因变量与多个自变量之间的线性关系模型，分析各自变量对因变量的影响方向和强度。在城市研究中常用于分析经济发展的影响因素、房价驱动因素等。",
+      "links": [
+        {
+          "title": "Statsmodels线性回归教程",
+          "url": "https://www.statsmodels.org/stable/examples/notebooks/ols.html"
+        },
+        {
+          "title": "回归分析原理详解（知乎）",
+          "url": "https://zhuanlan.zhihu.com/p/335133643"
+        }
+      ],
+      "tools": [
+        "Python (statsmodels/sklearn)",
+        "R (lm)",
+        "SPSS",
+        "Stata"
+      ]
+    },
+    {
+      "name": "逻辑回归（Logistic Regression）",
+      "category": "回归分析",
+      "description": "用于因变量为二分类或多分类的情境，如土地是否发生转化、居民是否选择迁居等。通过Logit变换将线性模型的输出映射到概率空间。",
+      "links": [
+        {
+          "title": "Scikit-learn逻辑回归指南",
+          "url": "https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+        }
+      ],
+      "tools": [
+        "Python (sklearn/statsmodels)",
+        "R (glm)",
+        "SPSS",
+        "Stata"
+      ]
+    },
+    {
+      "name": "地理加权回归（GWR）",
+      "category": "回归分析",
+      "description": "一种空间变系数回归方法，允许回归系数随空间位置变化，用于捕捉变量的空间非平稳性。在城市研究中常用于分析房价影响因素的空间异质性。",
+      "links": [
+        {
+          "title": "MGWR Python工具包",
+          "url": "https://github.com/pysal/mgwr"
+        },
+        {
+          "title": "GWR原理与应用教程",
+          "url": "https://gwrtools.github.io/"
+        }
+      ],
+      "tools": [
+        "Python (mgwr)",
+        "R (GWmodel)",
+        "ArcGIS GWR工具"
+      ]
+    },
+    {
+      "name": "面板数据回归",
+      "category": "回归分析",
+      "description": "针对同时包含个体维度和时间维度的面板数据，通过固定效应模型或随机效应模型控制不可观测的个体异质性。广泛用于城市年度面板数据的经济分析。",
+      "links": [
+        {
+          "title": "linearmodels面板数据教程",
+          "url": "https://bashtage.github.io/linearmodels/panel/panel.html"
+        }
+      ],
+      "tools": [
+        "Python (linearmodels)",
+        "R (plm)",
+        "Stata (xtreg)"
+      ]
+    },
+    {
+      "name": "空间自相关分析（Moran's I / Geary's C）",
+      "category": "空间计量",
+      "description": "通过Moran's I、Geary's C等指标度量空间数据的自相关性，判断地理现象是否存在空间集聚或空间随机分布。配合Moran散点图和LISA图识别局部空间模式。",
+      "links": [
+        {
+          "title": "PySAL空间自相关教程",
+          "url": "https://pysal.org/esda/notebooks/auto_examples/plot_moran.html"
+        },
+        {
+          "title": "GeoDa空间分析教程",
+          "url": "https://geodacenter.github.io/workbook/4a_global_auto/lab4a.html"
+        }
+      ],
+      "tools": [
+        "Python (PySAL)",
+        "R (spdep)",
+        "GeoDa",
+        "ArcGIS"
+      ]
+    },
+    {
+      "name": "空间杜宾模型（SDM）",
+      "category": "空间计量",
+      "description": "同时纳入因变量的空间滞后项（WY）和自变量的空间滞后项（WX），是空间计量经济学中最常用的模型之一。适用于城市经济增长溢出、环境政策效果评估等。",
+      "links": [
+        {
+          "title": "PySAL空间计量模型教程",
+          "url": "https://pysal.org/spreg/notebooks/spreg_basics.html"
+        },
+        {
+          "title": "空间计量经济学入门指南",
+          "url": "https://spatial-econometrics.com/"
+        }
+      ],
+      "tools": [
+        "Python (PySAL/spreg)",
+        "R (spatialreg)",
+        "Stata (spmat)",
+        "GeoDaSpace"
+      ]
+    },
+    {
+      "name": "空间滞后模型（SAR）",
+      "category": "空间计量",
+      "description": "将因变量的空间滞后项（邻域加权平均）纳入回归模型，捕捉空间溢出效应。适用于研究城市间的经济扩散、环境外部性等问题。",
+      "links": [
+        {
+          "title": "PySAL空间滞后模型教程",
+          "url": "https://pysal.org/spreg/notebooks/spreg_basics.html"
+        }
+      ],
+      "tools": [
+        "Python (PySAL)",
+        "R (spatialreg)",
+        "Stata",
+        "GeoDaSpace"
+      ]
+    },
+    {
+      "name": "双差分法（DID）",
+      "category": "空间计量",
+      "description": "利用政策实施前后、处理组和对照组的双重差异来估计政策因果效应。在城市研究中常用于评估新区建设、轨道交通开通等政策的实际影响。",
+      "links": [
+        {
+          "title": "DID方法原理与Stata实现",
+          "url": "https://www.stata.com/meeting/germany21/slides/Germany21_Pfaffermayr.pdf"
+        }
+      ],
+      "tools": [
+        "Stata (diff)",
+        "Python (linearmodels)",
+        "R (fixest)"
+      ]
+    },
+    {
+      "name": "缓冲区分析",
+      "category": "GIS空间分析",
+      "description": "以点、线、面要素为中心，按指定距离生成缓冲区多边形。常用于分析设施服务范围（学校、医院辐射范围）、道路影响区域、污染扩散范围等。",
+      "links": [
+        {
+          "title": "GeoPandas缓冲区分析教程",
+          "url": "https://geopandas.org/en/stable/docs/user_guide/geometric_manipulations.html"
+        }
+      ],
+      "tools": [
+        "Python (GeoPandas)",
+        "R (sf)",
+        "QGIS",
+        "ArcGIS"
+      ]
+    },
+    {
+      "name": "核密度估计（KDE）",
+      "category": "GIS空间分析",
+      "description": "根据点要素的空间分布密度生成连续的密度表面，直观展示空间集聚热点。在城市研究中常用于POI热点分析、犯罪事件分布、人口密度可视化等。",
+      "links": [
+        {
+          "title": "SciPy核密度估计教程",
+          "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.gaussian_kde.html"
+        },
+        {
+          "title": "QGIS核密度分析教程",
+          "url": "https://docs.qgis.org/latest/en/docs/training_manual/analysis/hotspots.html"
+        }
+      ],
+      "tools": [
+        "Python (scipy/seaborn)",
+        "R (spatstat)",
+        "QGIS",
+        "ArcGIS"
+      ]
+    },
+    {
+      "name": "叠加分析",
+      "category": "GIS空间分析",
+      "description": "将两个或多个图层进行空间叠加运算（交、并、差、裁剪等），生成新的空间要素和属性。常用于土地利用适宜性评价、多因子空间决策分析等。",
+      "links": [
+        {
+          "title": "GeoPandas叠加分析教程",
+          "url": "https://geopandas.org/en/stable/docs/user_guide/set_operations.html"
+        }
+      ],
+      "tools": [
+        "Python (GeoPandas)",
+        "R (sf)",
+        "QGIS",
+        "ArcGIS"
+      ]
+    },
+    {
+      "name": "网络分析",
+      "category": "GIS空间分析",
+      "description": "基于道路网络、公交网络等拓扑关系进行分析，包括最短路径、服务区域划分、设施选址优化、可达性分析等。是交通规划和公共服务设施布局的核心方法。",
+      "links": [
+        {
+          "title": "OSMnx网络分析教程",
+          "url": "https://osmnx.readthedocs.io/en/stable/user-guide.html"
+        },
+        {
+          "title": "NetworkX图论与网络分析",
+          "url": "https://networkx.org/documentation/stable/"
+        }
+      ],
+      "tools": [
+        "Python (OSMnx/NetworkX)",
+        "R (igraph)",
+        "QGIS (Network Analysis)",
+        "ArcGIS Network Analyst"
+      ]
+    },
+    {
+      "name": "空间插值",
+      "category": "GIS空间分析",
+      "description": "根据已知采样点数据推断未采样区域的数值，常用方法包括反距离加权（IDW）、克里金插值（Kriging）、样条函数法等。常用于气象数据、污染物浓度、土壤属性等连续面数据的空间预测。",
+      "links": [
+        {
+          "title": "PyKrige克里金插值库",
+          "url": "https://github.com/bsmurphy/PyKrige"
+        },
+        {
+          "title": "Scipy空间插值教程",
+          "url": "https://docs.scipy.org/doc/scipy/reference/interpolate.html"
+        }
+      ],
+      "tools": [
+        "Python (PyKrige/scipy)",
+        "R (gstat)",
+        "ArcGIS Geostatistical Analyst",
+        "QGIS (Interpolation)"
+      ]
+    },
+    {
+      "name": "遥感影像分类",
+      "category": "GIS空间分析",
+      "description": "对遥感影像进行像素级分类，识别土地利用/覆盖类型。方法包括监督分类（最大似然、随机森林）和非监督分类（K-Means、ISODATA），以及深度学习方法（CNN、U-Net）。",
+      "links": [
+        {
+          "title": "Google Earth Engine影像分类教程",
+          "url": "https://developers.google.com/earth-engine/guides/classification"
+        },
+        {
+          "title": "Scikit-learn遥感分类指南",
+          "url": "https://scikit-learn.org/stable/modules/svm.html"
+        }
+      ],
+      "tools": [
+        "GEE",
+        "Python (sklearn/tensorflow)",
+        "ENVI",
+        "QGIS (Semi-Automatic Classification)"
+      ]
+    },
+    {
+      "name": "随机森林（Random Forest）",
+      "category": "机器学习",
+      "description": "集成学习方法，通过构建多棵决策树并取平均来提升预测精度和防止过拟合。可用于土地利用变化预测、城市扩张模拟、房价预测等。能输出变量重要性排名。",
+      "links": [
+        {
+          "title": "Scikit-learn随机森林教程",
+          "url": "https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees"
+        }
+      ],
+      "tools": [
+        "Python (sklearn)",
+        "R (randomForest)",
+        "SPSS Modeler"
+      ]
+    },
+    {
+      "name": "K-Means聚类",
+      "category": "机器学习",
+      "description": "无监督聚类算法，将样本按特征相似性分为K个簇。常用于城市功能区的识别、空间格局分类、居民出行模式聚类等。需注意K值选择和初始中心敏感性。",
+      "links": [
+        {
+          "title": "Scikit-learn K-Means教程",
+          "url": "https://scikit-learn.org/stable/modules/clustering.html#k-means"
+        }
+      ],
+      "tools": [
+        "Python (sklearn)",
+        "R (stats::kmeans)",
+        "SPSS"
+      ]
+    },
+    {
+      "name": "DBSCAN密度聚类",
+      "category": "机器学习",
+      "description": "基于密度的空间聚类算法，能够发现任意形状的簇并自动识别噪声点。适合POI空间聚类、城市热点发现、异常事件检测等场景，无需预设簇数量。",
+      "links": [
+        {
+          "title": "Scikit-learn DBSCAN教程",
+          "url": "https://scikit-learn.org/stable/modules/clustering.html#dbscan"
+        }
+      ],
+      "tools": [
+        "Python (sklearn/HDBSCAN)",
+        "R (dbscan)",
+        "PostGIS"
+      ]
+    },
+    {
+      "name": "XGBoost / LightGBM",
+      "category": "机器学习",
+      "description": "高性能梯度提升树算法，在结构化数据的回归和分类任务中表现优异。广泛应用于城市房价预测、交通流量预测、土地利用变化模拟等，支持特征重要性分析。",
+      "links": [
+        {
+          "title": "XGBoost官方教程",
+          "url": "https://xgboost.readthedocs.io/en/stable/tutorials/index.html"
+        },
+        {
+          "title": "LightGBM官方文档",
+          "url": "https://lightgbm.readthedocs.io/"
+        }
+      ],
+      "tools": [
+        "Python (xgboost/lightgbm)",
+        "R (xgboost)",
+        "Stata"
+      ]
+    },
+    {
+      "name": "深度学习（CNN / LSTM）",
+      "category": "机器学习",
+      "description": "CNN可用于遥感影像语义分割（如U-Net），LSTM可用于城市时序数据建模（如交通流量预测）。迁移学习可减少标注数据需求。",
+      "links": [
+        {
+          "title": "PyTorch深度学习教程",
+          "url": "https://pytorch.org/tutorials/"
+        },
+        {
+          "title": "TensorFlow官方教程",
+          "url": "https://www.tensorflow.org/tutorials"
+        }
+      ],
+      "tools": [
+        "Python (PyTorch/TensorFlow)",
+        "Keras",
+        "R (keras)"
+      ]
+    },
+    {
+      "name": "文本分析与NLP",
+      "category": "质性分析",
+      "description": "利用自然语言处理技术分析政策文本、社交媒体评论、学术论文摘要等非结构化文本。包括词频分析、主题模型（LDA）、情感分析等方法。",
+      "links": [
+        {
+          "title": "jieba中文分词工具",
+          "url": "https://github.com/fxsjy/jieba"
+        },
+        {
+          "title": "Gensim主题模型教程",
+          "url": "https://radimrehurek.com/gensim/models/ldamodel.html"
+        }
+      ],
+      "tools": [
+        "Python (jieba/gensim/snowNLP)",
+        "R (tidytext/quanteda)",
+        "NVivo"
+      ]
+    },
+    {
+      "name": "社会网络分析（SNA）",
+      "category": "质性分析",
+      "description": "分析行动者之间的关系网络结构，计算节点中心性、网络密度、社区发现等指标。可用于分析城市间经济联系网络、学术合作网络、交通联系网络等。",
+      "links": [
+        {
+          "title": "NetworkX社会网络分析教程",
+          "url": "https://networkx.org/documentation/stable/reference/algorithms/community.html"
+        },
+        {
+          "title": "Gephi可视化教程",
+          "url": "https://gephi.org/users/tutorial/"
+        }
+      ],
+      "tools": [
+        "Python (NetworkX)",
+        "R (igraph)",
+        "Gephi",
+        "UCINET"
+      ]
+    },
+    {
+      "name": "扎根理论与质性编码",
+      "category": "质性分析",
+      "description": "从访谈资料、田野观察中通过系统编码（开放编码、主轴编码、选择性编码）提炼理论框架。常用于城市社区研究、居民行为动机分析等深度质性研究。",
+      "links": [
+        {
+          "title": "NVivo质性分析软件",
+          "url": "https://www.qsrinternational.com/nvivo"
+        },
+        {
+          "title": "MAXQDA质性分析工具",
+          "url": "https://www.maxqda.com/"
+        }
+      ],
+      "tools": [
+        "NVivo",
+        "MAXQDA",
+        "ATLAS.ti"
+      ]
+    },
+    {
+      "name": "层次分析法（AHP）",
+      "category": "多准则决策",
+      "description": "通过构建层次结构和两两比较判断矩阵，将决策者的主观判断转化为各因素的权重。常用于城市用地适宜性评价、设施选址评价等场景。",
+      "links": [
+        {
+          "title": "AHP方法原理与应用",
+          "url": "https://en.wikipedia.org/wiki/Analytic_hierarchy_process"
+        }
+      ],
+      "tools": [
+        "Excel",
+        "SPSS",
+        "Super Decisions",
+        "Python (ahp package)"
+      ]
+    },
+    {
+      "name": "TOPSIS法",
+      "category": "多准则决策",
+      "description": "基于理想解和负理想解的距离排序方法，计算各方案与正负理想解的相对接近度来评价方案优劣。常用于城市竞争力评价、可持续发展评估等。",
+      "links": [
+        {
+          "title": "TOPSIS方法原理与Python实现",
+          "url": "https://en.wikipedia.org/wiki/TOPSIS"
+        }
+      ],
+      "tools": [
+        "Python (scikit-criteria)",
+        "Excel",
+        "SPSS"
+      ]
+    },
+    {
+      "name": "城市间联系强度分析",
+      "category": "网络分析",
+      "description": "基于重力模型、人口流动数据、交通流量数据等分析城市间的空间联系强度和方向，构建城市网络结构图。常用于城市群空间组织研究。",
+      "links": [
+        {
+          "title": "重力模型原理",
+          "url": "https://en.wikipedia.org/wiki/Gravity_model_of_trade"
+        }
+      ],
+      "tools": [
+        "Python (NetworkX/pandas)",
+        "R (igraph)",
+        "Gephi"
+      ]
+    },
+    {
+      "name": "交通可达性分析",
+      "category": "网络分析",
+      "description": "计算从某一点到达指定目标（如医院、学校、就业中心）的时间或距离成本，评估空间公平性。常用等时线法、累积机会法、引力法等量化指标。",
+      "links": [
+        {
+          "title": "OSMnx可达性分析教程",
+          "url": "https://osmnx.readthedocs.io/en/stable/user_guide/isochrones.html"
+        }
+      ],
+      "tools": [
+        "Python (OSMnx), QGIS, ArcGIS Network Analyst"
+      ]
+    },
+    {
+      "name": "时间序列分析",
+      "category": "时间序列",
+      "description": "分析随时间变化的数据序列，包括趋势分解、季节性分析、ARIMA/SARIMA建模等。可用于城市人口变化趋势预测、房价时序分析、PM2.5浓度变化分析等。",
+      "links": [
+        {
+          "title": "statsmodels时间序列教程",
+          "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/tsa_arma_0.html"
+        },
+        {
+          "title": "Prophet时间序列预测",
+          "url": "https://facebook.github.io/prophet/"
+        }
+      ],
+      "tools": [
+        "Python (statsmodels/Prophet)",
+        "R (forecast/tseries)",
+        "SPSS",
+        "Stata"
+      ]
+    },
+    {
+      "name": "马尔可夫链与土地利用转移矩阵",
+      "category": "时间序列",
+      "description": "基于马尔可夫链理论构建土地利用类型之间的转移概率矩阵，预测未来土地利用结构变化。常结合CA模型或FLUS模型进行空间显式的土地变化模拟。",
+      "links": [
+        {
+          "title": "PyMarkovChain马尔可夫工具",
+          "url": "https://github.com/maximtrp/markovchain"
+        },
+        {
+          "title": "FLUS模型介绍",
+          "url": "https://www.geosimulation.cn/flus.html"
+        }
+      ],
+      "tools": [
+        "Python",
+        "R (markovchain)",
+        "IDL (FLUS)"
+      ]
+    }
+  ]
+}
